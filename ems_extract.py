@@ -272,6 +272,7 @@ def main():
 
     system_msg = (
         "คุณคือระบบสกัดข้อมูลเหตุฉุกเฉิน EMS ไทย/อังกฤษ "
+        "ให้ตอบกลับข้อมูลเป็นภาษาไทยเท่านั้น ถ้าไม่มีคำไทยที่เหมาะสมให้ทับศัพท์ได้"
         "ให้ตอบกลับเป็น JSON เท่านั้น ตามคีย์: "
         "{unit_id,timestamp,incident:{type,mechanism,location,safety_notes},"
         "patient:{id,age,gender,consciousness,chief_complaint},"
