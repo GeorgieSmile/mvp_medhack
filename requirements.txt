@@ -1,0 +1,6 @@
+streamlit 
+google-cloud-speech 
+google-auth 
+plotly 
+pandas
+pydub

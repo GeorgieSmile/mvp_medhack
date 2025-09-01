@@ -1,0 +1,6 @@
+neon-emitter-253311-fbdd8dc19be3.json
+
+*.pyc
+__pycache__/
+
+.vscode/
