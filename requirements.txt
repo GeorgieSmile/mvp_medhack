@@ -6,3 +6,8 @@ pandas
 pydub
 openai
 python-dotenv
+ultralytics 
+opencv-python 
+mediapipe 
+numpy
+pyyaml
