@@ -1,0 +1,1 @@
+{"timestamp": "2025-09-03T01:21:47", "source": "patient.png", "detections": [{"class": "person", "status": "unconscious", "bbox": [226, 169, 421, 365]}, {"class": "person", "status": "bleeding", "bbox": [567, 456, 769, 716]}]}

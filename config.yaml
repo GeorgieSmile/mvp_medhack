@@ -1,0 +1,21 @@
+# ไฟล์/การบันทึก
+input_path: "patient.png"         # เปลี่ยนเป็น .mp4/.jpg ได้
+output_jsonl: "output.jsonl"
+save_processed: true
+save_dir: "yolo_outputs"
+save_every_n_frames: 1
+
+# วาดผลลัพธ์
+thickness: 2
+font_scale: 0.9
+
+# YOLO
+yolo_weights: "yolov8n.pt"
+conf: 0.15
+iou: 0.45
+
+# Heuristics (ปรับได้หากภาพจริงต่างสภาพแสง)
+bleeding_min_area_ratio: 0.01      # พท.คราบขั้นต่ำใน ROI ของคน
+ear_threshold: 0.25                 # < นี้ = ตาปิด
+lying_angle_deg: 30.0               # มุมแกนลำตัวใกล้แนวนอน
+lying_aspect_thresh: 1.02           # กล่องคนกว้างกว่าสูงเล็กน้อย
